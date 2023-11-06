@@ -8,14 +8,17 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
     steps:
     - name: Install Node.js
       uses: actions/setup-node@v2
       with:
         node-version: 20
 
-    - name: Clone GitLab Repository
+    - name: Clone && Deploy asssets
+      env:
+        GH_REPONAME: ${{ secrets.GH_REPONAME }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_USERNAME: ${{ secrets.GH_USERNAME }}
       run: |
         git clone --depth 1 https://${{ secrets.GITLAB_USER }}:${{ secrets.GITLAB_TOKEN }}@gitlab.com/oktoworkspace/application.git
         cd application
@@ -23,3 +26,4 @@ jobs:
         git pull
         npm install
         npm run build:win
+        node ./github-windows-upload.js
