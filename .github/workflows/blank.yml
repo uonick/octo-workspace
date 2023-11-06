@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Deploy workflow from trigger'  
 
 jobs:
   build:
