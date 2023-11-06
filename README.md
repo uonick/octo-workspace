@@ -11,6 +11,3 @@
 ### Ссылки
 * [Сайт приложения](https://octows.uonick.com)
 * [Скачать последнюю версию](https://github.com/uonick/octo-workspace/releases)
-
-#### P.S.
-Не факт, что под windows и linux будет работать. Если возникнут ошибки, создайте [issue](https://github.com/uonick/octo-workspace/issues/new)
