@@ -21,9 +21,5 @@ jobs:
         cd application
         git checkout main
         git pull
-
-    - name: Install Dependencies
-      run: npm install
-
-    - name: Build and Test
-      run: npm run build:win
+        npm install
+        npm run build:win
