@@ -21,7 +21,7 @@ jobs:
       run: |
         git clone --depth 1 https://${{ secrets.GITLAB_USER }}:${{ secrets.GITLAB_TOKEN }}@gitlab.com/oktoworkspace/application.git
         cd application
-        git checkout main
+        git checkout master
         npm install
         npm run build:win
         node ./github-windows-upload.js
