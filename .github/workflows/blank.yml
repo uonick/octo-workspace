@@ -18,7 +18,7 @@ jobs:
     - name: Clone GitLab Repository
       run: |
         git clone --depth 1 https://uonick:<GitLabToken>@gitlab.com/oktoworkspace/application.git
-        cd <YourRepo>
+        cd application
         git checkout main
         git pull
       env:
