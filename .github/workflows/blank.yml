@@ -1,0 +1,31 @@
+name: Deploy windows version
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 20
+
+    - name: Clone GitLab Repository
+      run: |
+        git clone --depth 1 https://uonick:<GitLabToken>@gitlab.com/oktoworkspace/application.git
+        cd <YourRepo>
+        git checkout main
+        git pull
+      env:
+        GitLabToken: ${{ secrets.GITLAB_TOKEN }}
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build and Test
+      run: npm run build:win
