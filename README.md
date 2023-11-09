@@ -1,4 +1,4 @@
-[![Deploy windows version](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml/badge.svg?branch=main&event=workflow_run)](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml)
+[![Deploy](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml/badge.svg)](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml)
 ## OctoWorkspace – для работы на фрилансе
 
 ### Умеет
