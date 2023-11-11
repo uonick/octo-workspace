@@ -1,5 +1,5 @@
 [![Deploy](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml/badge.svg)](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml)
-## OctoWorkspace – для работы на фрилансе
+# OctoWorkspace – для работы на фрилансе
 
 ### Умеет
 * → Записывать задачи, проекты и время
