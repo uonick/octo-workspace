@@ -9,6 +9,11 @@
 ### Скриншоты
 ![Screenshot](https://i.imgur.com/Ocr5ywz.png "Preview")
 
+### Путь самурая
+- [ ] Сменить базу и избавиться от sqlite
+- [ ] JavaScript → TypeScript
+- [ ] Electron Builder → Electron Forge
+
 ### Ссылки
-* [Сайт приложения](https://octows.uonick.com)
+* [Сайт приложения](https://octows.ru)
 * [Скачать последнюю версию](https://github.com/uonick/octo-workspace/releases)
