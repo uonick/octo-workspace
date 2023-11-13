@@ -10,7 +10,7 @@
 ![Screenshot](https://i.imgur.com/Ocr5ywz.png "Preview")
 
 ### Путь самурая
-- [ ] Сменить базу и избавиться от sqlite
+- [x] Сменить базу и избавиться от sqlite
 - [ ] JavaScript → TypeScript
 - [ ] Electron Builder → Electron Forge
 
