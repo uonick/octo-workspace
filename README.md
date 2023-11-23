@@ -1,6 +1,6 @@
 [![Deploy](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml/badge.svg)](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml)
 # OctoWorkspace – для работы на фрилансе
-Небольшая, бесплатная offline CRM для работы программистов, дизайнеров и т.д.
+Небольшая, бесплатная offline CRM для программистов, дизайнеров и т.д.
 
 ## Умеет
 * → Записывать задачи и проекты
