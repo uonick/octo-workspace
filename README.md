@@ -19,7 +19,7 @@
 
 ## Путь самурая
 - [x] Сменить базу и избавиться от sqlite
-- [ ] JavaScript → TypeScript
+- [x] JavaScript → TypeScript
 - [ ] Electron Builder → Electron Forge
 
 ## Ссылки
