@@ -25,4 +25,4 @@ jobs:
         git checkout master
         npm install
         npm run build:win
-        node ./github-windows-upload.js
+        node ./github-upload-windows.js
