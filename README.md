@@ -12,10 +12,10 @@
 * → Работает без интернета
 * → Не требует регистрации
 * → Не сливает ваши данные
-* → Есть [темная тема](https://octows.ru/img/screenshot-dark.png)
+* → Есть темная тема
 
 ## Скриншоты
-![Screenshot](https://octows.ru/img/screenshot-big.png)
+![Screenshot]([https://octows.ru/img/screenshot-big.png](https://octows.ru/img/screenshot.webp))
 
 ## Путь самурая
 - [x] Сменить базу и избавиться от sqlite
