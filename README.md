@@ -21,7 +21,7 @@
 ## Путь самурая
 - [x] Сменить базу и избавиться от sqlite
 - [x] JavaScript → TypeScript
-- [ ] Electron Builder → Electron Forge
+- [ ] Electron → Tauri? Wails?
 
 ## Ссылки
 * [Сайт приложения](https://octows.ru)
