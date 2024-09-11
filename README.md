@@ -16,7 +16,9 @@
 * → Есть темная тема
 
 ## Скриншоты
-![Screenshot](https://octows.ru/img/screenshot.webp)
+![Screenshot](https://raw.githubusercontent.com/uonick/octo-workspace/main/screenshot.webp)
+
+
 
 ## Путь самурая
 - [x] Сменить базу и избавиться от sqlite
