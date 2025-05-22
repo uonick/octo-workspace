@@ -30,4 +30,4 @@
 * [Скачать последнюю версию](https://github.com/uonick/octo-workspace/releases)
 
 ## Помощь проекту
-* [Хочу помочь​](https://yoomoney.ru/to/41001118331472)
+* [Донаты​](https://yoomoney.ru/to/41001118331472)
