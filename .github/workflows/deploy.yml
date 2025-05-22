@@ -1,9 +1,11 @@
 name: Deploy to GitHub Pages
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [ main ]
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -23,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           folder: dist
           branch: gh-pages 
