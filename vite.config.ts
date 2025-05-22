@@ -1,4 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
+import path from 'path'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
@@ -7,13 +8,14 @@ import { ViteMinifyPlugin } from 'vite-plugin-minify'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), ViteMinifyPlugin()],
+  base: '/',
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@': path.resolve(__dirname, './src'),
     },
   },
   build: {
-    outDir: '../public',
-    emptyOutDir: true,
+    outDir: './public',
+    emptyOutDir: false,
   },
 })
