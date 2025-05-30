@@ -17,11 +17,11 @@
           <div class="relative z-10 duration-1000 delay-300 opacity-1">
             <div class="max-w-xl mx-auto text-center">
               <h2
-                class="text-neutral-50 text-3xl font-semibold sm:text-5xl from-sky-200 to-violet-500 bg-gradient-to-br text-transparent bg-clip-text"
+                class="text-neutral-50 text-3xl font-semibold  from-sky-200 to-violet-500 bg-gradient-to-br text-transparent bg-clip-text"
               >
                 Следи за финансами и временем в одном приложении
               </h2>
-              <p class="mt-5 text-neutral-300">
+              <p class="mt-5 text-neutral-300 px-5 lg:px-0">
                 Простой интерфейс, никаких оплат или сторонних сервисов – приложение создано для
                 удобства без лишних заморочек
               </p>

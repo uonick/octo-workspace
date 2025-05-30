@@ -2,7 +2,7 @@
   <div class="duration-1000 delay-300 opacity-1">
     <div class="space-y-7 max-w-3xl mx-auto text-center">
       <h1
-        class="text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-6xl from-slate-100 to-slate-400 bg-gradient-to-br"
+        class="text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-6xl from-slate-100 to-purple-300 bg-gradient-to-br"
       >
         Бесплатное приложение для работы на фрилансе
       </h1>
