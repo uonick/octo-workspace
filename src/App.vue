@@ -30,11 +30,11 @@ import AppFooter from './components/AppFooter.vue'
   }
 
   .scrollbar::-webkit-scrollbar-track {
-    @apply bg-neutral-50 dark:bg-neutral-800;
+    @apply  bg-neutral-800;
   }
 
   .scrollbar::-webkit-scrollbar-thumb {
-    @apply rounded-full bg-neutral-200 dark:bg-neutral-700;
+    @apply rounded-full bg-neutral-500;
   }
 }
 </style>
