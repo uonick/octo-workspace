@@ -1,6 +1,7 @@
-[![Deploy](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml/badge.svg)](https://github.com/uonick/octo-workspace/actions/workflows/blank.yml)
 # OctoWorkspace – для работы на фрилансе
-Небольшая, бесплатная offline CRM для программистов, дизайнеров и т.д.
+Небольшое, бесплатное десктоп приложение для программистов, дизайнеров и т.д.
+
+Контролируйте ваше время и проекты, храните заметки, выставляйте счета и акты, следите за оплатой офлайн
 
 ## Умеет
 * → Записывать задачи и проекты
@@ -29,5 +30,5 @@
 * [Сайт приложения](https://octows.ru)
 * [Скачать последнюю версию](https://github.com/uonick/octo-workspace/releases)
 
-## Помощь проекту
+## Помочь проекту
 * [Донаты​](https://yoomoney.ru/to/41001118331472)
