@@ -23,8 +23,8 @@
 ![Screenshot](https://raw.githubusercontent.com/uonick/octo-workspace/main/screenshot.webp)
 
 ## Путь самурая
-- [x] Сменить базу и избавиться от sqlite
 - [x] JavaScript → TypeScript
+- [ ] Переехать на sqlite
 - [ ] Electron → Tauri
 
 ## Ссылки
