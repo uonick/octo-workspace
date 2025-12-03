@@ -21,22 +21,19 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '24'
+          node-version: '25'
 
       - name: Install Dependencies
         run: npm install
 
-      - name: Update version
-        if: github.event_name == 'workflow_dispatch'
+      - name: Build pages
         run: |
+          npm run build
           npm version ${{ github.event.inputs.version }} --no-git-tag-version
           node version.js
-
-      - name: Build
-        run: npm run build:landing
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
-          folder: landing/dist
+          folder: dist
           branch: gh-pages
