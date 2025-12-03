@@ -9,7 +9,7 @@ const updated = format(Date.now(), 'dd.MM.yyyy')
 async function makeVersionFile() {
   const currentVersion = { version, updated }
 
-  await fs.writeFile('./dist/version.json', JSON.stringify(currentVersion), {
+  await fs.writeFile('./public/version.json', JSON.stringify(currentVersion), {
     encoding: 'utf-8',
     flag: 'w',
   })
