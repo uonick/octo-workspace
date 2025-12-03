@@ -6,6 +6,8 @@ permissions:
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,4 +30,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           folder: dist
-          branch: gh-pages 
+          branch: gh-pages
