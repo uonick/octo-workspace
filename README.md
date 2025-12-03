@@ -24,7 +24,7 @@
 
 ## Путь самурая
 - [x] JavaScript → TypeScript
-- [ ] Переехать на sqlite
+- [x] Переехать на sqlite
 - [ ] Electron → Tauri
 
 ## Ссылки
