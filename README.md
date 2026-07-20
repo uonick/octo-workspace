@@ -25,7 +25,7 @@
 ## Путь самурая
 - [x] JavaScript → TypeScript
 - [x] Переехать на sqlite
-- [ ] Electron → Tauri
+- [x] Electron → Tauri
 
 ## Ссылки
 * [Сайт приложения](https://octows.ru)
