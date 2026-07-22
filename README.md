@@ -4,6 +4,7 @@
 Контролируйте ваше время и проекты, храните заметки, выставляйте счета и акты, следите за оплатой офлайн. Простой интерфейс, никаких оплат или сторонних сервисов.
 
 ## Умеет
+
 * → Записывать задачи и проекты
 * → Рассчитывать время и суммы работ
 * → Выставлять счета и акты
@@ -19,8 +20,8 @@
 * → Бесплатно навсегда
 * → Есть темная тема
 
-## Скриншоты
-![Screenshot](https://raw.githubusercontent.com/uonick/octo-workspace/main/screenshot.webp)
+## Скриншот
+<img width="3656" height="2088" alt="screenshot" src="https://github.com/user-attachments/assets/63494b2a-a787-4aae-a54c-c51dbe981a0f" />
 
 ## Путь самурая
 - [x] JavaScript → TypeScript
